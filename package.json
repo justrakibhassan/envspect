@@ -1,0 +1,53 @@
+{
+  "name": "envspect",
+  "version": "0.1.0",
+  "description": "Zero-config .env validation, secret leak detection, and team sync CLI",
+  "type": "module",
+  "bin": {
+    "envspect": "./dist/cli.js"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": ["dist"],
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "tsc --noEmit",
+    "prepublishOnly": "npm run build",
+    "local": "npm run build && node dist/cli.js"
+  },
+  "keywords": ["env", "dotenv", "validation", "secrets", "security", "cli", "lint", "audit"],
+  "author": "Rakib Hassan",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rakib-Coder00/envspect.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Rakib-Coder00/envspect/issues"
+  },
+  "homepage": "https://github.com/Rakib-Coder00/envspect#readme",
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.5.0",
+    "vitest": "^2.0.0"
+  },
+  "dependencies": {
+    "commander": "^12.0.0",
+    "picocolors": "^1.0.0",
+    "nanospinner": "^1.1.0"
+  }
+}
