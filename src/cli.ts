@@ -9,7 +9,7 @@ const program = new Command();
 program
   .name('envspect')
   .description('Zero-config .env validation, secret leak detection, and team sync CLI')
-  .version('0.1.0')
+  .version('0.1.1')
   .option('-f, --format <type>', 'Output format (table, json, minimal)', 'table')
   .option('-s, --silent', 'Suppress non-essential output', false)
   .option('--cwd <path>', 'Working directory', process.cwd());

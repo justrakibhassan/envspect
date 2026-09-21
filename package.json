@@ -1,6 +1,6 @@
 {
   "name": "envspect",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Zero-config .env validation, secret leak detection, and team sync CLI",
   "type": "module",
   "bin": {
@@ -44,12 +44,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Rakib-Coder00/envspect.git"
+    "url": "git+https://github.com/justrakibhassan/envspect.git"
   },
   "bugs": {
-    "url": "https://github.com/Rakib-Coder00/envspect/issues"
+    "url": "https://github.com/justrakibhassan/envspect/issues"
   },
-  "homepage": "https://github.com/Rakib-Coder00/envspect#readme",
+  "homepage": "https://github.com/justrakibhassan/envspect#readme",
   "devDependencies": {
     "@types/node": "^22.0.0",
     "tsup": "^8.0.0",

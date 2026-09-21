@@ -5,7 +5,7 @@
 🔍 Zero-config `.env` validation, secret leak detection, and team sync CLI
 
 [![npm version](https://img.shields.io/npm/v/envspect)](https://www.npmjs.com/package/envspect)
-[![CI](https://github.com/Rakib-Coder00/envspect/actions/workflows/ci.yml/badge.svg)](https://github.com/Rakib-Coder00/envspect/actions/workflows/ci.yml)
+[![CI](https://github.com/justrakibhassan/envspect/actions/workflows/ci.yml/badge.svg)](https://github.com/justrakibhassan/envspect/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 </div>
@@ -145,4 +145,4 @@ console.log(`Found ${report.findings.length} potential secrets`);
 
 ## License
 
-MIT © [Rakib Hassan](https://github.com/Rakib-Coder00)
+MIT © [Rakib Hassan](https://github.com/justrakibhassan)
